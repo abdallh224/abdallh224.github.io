@@ -1,0 +1,111 @@
+@font-face {
+    font-family: tajwal;
+    src: url(../fonts/Tajawal-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: tajwal;
+    src: url(../fonts/Tajawal-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: tajwal;
+    src: url(../fonts/Tajawal-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: tajwal;
+    src: url(../fonts/Tajawal-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: tajwal;
+    src: url(../fonts/Tajawal-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: tajwal;
+    src: url(../fonts/Tajawal-Black.ttf);
+    font-weight: 900;
+}
+  * {
+    direction: rtl;
+    font-family: tajwal !important;
+    letter-spacing: 0 !important;
+}
+html {
+    text-align: right;
+}
+.slide .content .inner .description {
+    padding-right: 0px;
+    padding-left: 16%;
+    font-size: 18px;
+}
+
+.white-version .cd-headline.clip .cd-words-wrapper::after {
+    right: unset;
+    left: 0;
+}
+.cd-words-wrapper {
+    text-align: right;
+}
+.white-version #sideNav .primary-menu li a {
+    font-weight: 800;
+    font-size: 16px;
+}
+.white-version .slide .content .inner .subtitle {
+    font-weight: 600;
+    font-size: 19px;
+}
+.white-version .rn-service {
+    text-align: right;
+}
+.rn-portfolio .inner .content .title, .rn-blog .inner .content .title {
+    text-align: right;
+}
+.rn-client-area .section-title {
+    text-align: right;
+}
+.white-version .rn-resume-area .personal-experience-inner .experience-list {
+    border-right: 5px solid #d9dee2;
+    border-left: none;
+    padding-right: 31px;
+    padding-left: 0px;
+}
+.personal-experience-inner .experience-list .resume-single-list .inner::before {
+    right: unset;
+    left: 100%;
+}
+.personal-experience-inner .experience-list .resume-single-list .inner::after {
+    right: unset;
+    left: 104%;
+}
+.progress-charts * {
+    direction: ltr;
+    text-align: left;
+}
+.testimonial .inner .card-info {
+    margin-left: 40px;
+    margin-right: 0;
+}
+.testimonial .inner .card-description::before {
+    left: unset;
+    right: -43px;
+}
+.testimonial .inner .card-description .title-area .title-info{
+    text-align: right;
+}
+.contact-form-wrapper label {
+    text-align: right;
+}
+.contact-about-area .social-area .social-icone a {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.rn-btn svg:not(:root) {
+    transform: rotate(180deg);
+}
+.header-wrapper .header-right {
+    margin-right: 30px;
+    margin-left: 0;
+}
