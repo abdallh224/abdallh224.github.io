@@ -19717,3 +19717,18 @@ body.white-version .rn-btn-ulderline {
 .rn-nav-list .nav-item {
   flex-basis: 50%;
 }
+
+@media only screen and (max-width: 767px) {
+  .client-card .main-content {
+      flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .client-card .main-content {
+      flex-basis: 100%;
+  }
+}
+.white-version .testimonial .inner .card-description .discription a{
+  color: var(--color-primary);
+}

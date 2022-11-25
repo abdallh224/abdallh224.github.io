@@ -120,3 +120,9 @@ html {
 #testimonial * {
     direction: ltr;
 }
+@media only screen and (max-width: 479px){
+    .testimonial .inner .card-info {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    }
