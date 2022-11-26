@@ -84,17 +84,6 @@ html {
     direction: ltr;
     text-align: left;
 }
-.testimonial .inner .card-info {
-    margin-left: 40px;
-    margin-right: 0;
-}
-.testimonial .inner .card-description::before {
-    left: unset;
-    right: -43px;
-}
-.testimonial .inner .card-description .title-area .title-info{
-    text-align: right;
-}
 .contact-form-wrapper label {
     text-align: right;
 }
