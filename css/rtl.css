@@ -114,4 +114,7 @@ html {
         margin-left: 0px;
         margin-right: 0;
     }
-    }
+}
+.white-version .testimonial .inner .card-description .seperator::after {
+    display: none;
+}
